@@ -1,0 +1,20 @@
+/* styles.css */
+.user-tagline-popover-rating {
+	display: none !important;
+}
+
+.stat-section-user-rating {
+	display: none !important;
+}
+
+.top-user-score {
+	display: none !important;
+}
+
+.user-tagline-rating {
+	display: none !important;
+}
+
+.user-rating-rating {
+	display: none !important;
+}

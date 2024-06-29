@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Hide Elo on Chess.com",
+	"version": "1.0",
+	"description": "An extension to hide Elo ratings on chess.com on all pages",
+	"icons": {
+		"48": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.chess.com/*"],
+			"js": ["content.js"],
+			"css": ["styles.css"]
+		}
+	],
+	"permissions": ["activeTab"]
+}
