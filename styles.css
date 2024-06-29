@@ -40,3 +40,10 @@
 input[aria-label="Rating"] {
 	display: none !important;
 }
+
+/* Lichess support */
+
+/* Anaysis page */
+.game__meta__players {
+	display: none !important;
+}
