@@ -7,11 +7,11 @@
 
 ## Aternative Install Instructions for Testing
 
-- Open Firefox and navigate to about:debugging.
+- Open Firefox and navigate to `about:debugging`.
 - Click on "This Firefox" (or "This Nightly" if using Firefox Nightly).
 - Click on "Load Temporary Add-on..."
 - Select the manifest.json file from your extension directory.
 
-### Shhh, stop scrolling
 
+### Shhh, stop scrolling
 - Link for me: https://addons.mozilla.org/en-US/developers/addons
