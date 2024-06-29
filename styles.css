@@ -35,6 +35,7 @@
 	display: none !important;
 }
 
+/* Safety Fallback  */
 .game-over-message-component span strong {
 	display: none !important;
 }
