@@ -34,23 +34,24 @@ main p {
 
 .action-btn {
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 10px 25px;
 	margin: 10px 0;
-	font-size: 1em;
+	font-size: 1rem;
 	color: white;
-	background-color: #007bff;
-	border: none;
+	background-color: transparent;
+	border: 1px solid #8500f1;
 	border-radius: 4px;
 	cursor: pointer;
 	transition: background-color 0.3s;
 }
 
 .action-btn:hover {
-	background-color: #0056b3;
+	border: 1px solid #6200b3;
+	background-color: #6200b3;
 }
 
 footer p {
-	margin-top: 20px;
+	margin: 20px 0 5px;
 	font-size: 0.75rem;
 	color: #535353;
 }
