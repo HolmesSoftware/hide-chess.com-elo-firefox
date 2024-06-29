@@ -12,6 +12,7 @@
 - Click on "Load Temporary Add-on..."
 - Select the manifest.json file from your extension directory.
 
-
 ### Shhh, stop scrolling
+
 - Link for me: https://addons.mozilla.org/en-US/developers/addons
+- web-ext build --OVERWRITE-DEST
