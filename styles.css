@@ -31,11 +31,16 @@
 	display: none !important;
 }
 
-.game-over-message-component span:last-child {
+/* Commented out because its not really needed */
+/* Having issues hiding elo when you rematch a user */
+/* .game-over-message-component span:last-child {
+	display: none !important;
+} */
+
+.game-over-message-component span strong {
 	display: none !important;
 }
 
-/* Analysis Page */
 /* Analysis Page */
 input[aria-label="Rating"] {
 	display: none !important;
