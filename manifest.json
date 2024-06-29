@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Hide Elo on Chess.com",
 	"version": "0.11",
-	"description": "An extension to hide Elo ratings on chess.com on all pages",
+	"description": "An extension to hide Elo ratings on chess.com on all pages. \n It also hides your lichess elo on analyze page (incase you import a game). \n \n This extension is open source and can be found at https://github.com/HolmesSoftware/hide-chess.com-elo-firefox",
 	"icons": {
 		"48": "icon.png"
 	},

@@ -1,5 +1,10 @@
 # Hide all loctions that show Elo on Chess.com
 
+An extension to hide Elo ratings on chess.com on all pages.
+It also hides your lichess elo on analyze page (incase you import a game).
+
+This extension is open source, feel free to contribute.
+
 ## Install instructions (because im too lazy to add to the store)
 
 - Download Latest Release
