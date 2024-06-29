@@ -31,7 +31,6 @@
 	display: none !important;
 }
 
-/* Commented out because its not really needed */
 .game-over-message-component span:last-child {
 	display: none !important;
 }
