@@ -1,4 +1,6 @@
 /* styles.css */
+
+/* Homepage */
 .user-tagline-popover-rating {
 	display: none !important;
 }
@@ -15,6 +17,26 @@
 	display: none !important;
 }
 
+/* User Popup */
 .user-rating-rating {
+	display: none !important;
+}
+
+/* Match Page */
+.player-game-over-component {
+	display: none !important;
+}
+
+.user-rating {
+	display: none !important;
+}
+
+.game-over-message-component span:last-child {
+	display: none !important;
+}
+
+/* Analysis Page */
+/* Analysis Page */
+input[aria-label="Rating"] {
 	display: none !important;
 }
