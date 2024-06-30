@@ -35,6 +35,11 @@
 	display: none !important;
 }
 
+/* User Flag */
+.country-flags-component {
+	display: none !important;
+}
+
 /* Safety Fallback  */
 .game-over-message-component span strong {
 	display: none !important;
