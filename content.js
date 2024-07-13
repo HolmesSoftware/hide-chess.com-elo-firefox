@@ -16,3 +16,21 @@ console.log("Hide Elo extension loaded ♟️");
 // 		}
 // 	});
 // });
+
+const disableButton = document.getElementById("action-btn");
+
+disableButton.addEventListener("click", function () {
+	const isEnabled = disableButton.innerHTML == "Enable";
+	const styleSheet = document.styleSheets[1]; //TODO - add validation to ensure this is the correct style sheet
+	//Currently only updating the stylesheet locally, not updating on chess.com
+	if (!isEnabled) {
+		disableButton.innerHTML = "Enable";
+		styleSheet.disabled = false;
+		return;
+	}
+
+	disableButton.innerHTML = "Disable";
+	styleSheet.disabled = true;
+
+	console.log("Button clicked - ");
+});

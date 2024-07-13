@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Hide Chess Elo</title>
 		<link rel="stylesheet" href="popup.css" />
+		<link rel="stylesheet" href="../styles.css" />
 	</head>
 	<body>
 		<div class="container">
@@ -19,17 +20,22 @@
 						all</em
 					>
 				</p>
-				<button class="action-btn">Disable</button>
+				<button id="action-btn" class="action-btn">Disable</button>
 
 				<ul>
+					<li>Add toggles for:</li>
 					<li>LiChess Analysis</li>
-					<li>User Flags</li>
+					<li>
+						User Flags - TODO: Convert into Hidden enemies, hide pfp, name and
+						such.
+					</li>
 				</ul>
-				<!-- <button class="action-btn">Action 2</button> -->
 			</main>
 			<footer>
-				<p>chess is pretty disco</p>
+				<p>chess is pretty disco 🪩</p>
 			</footer>
 		</div>
+
+		<script src="../content.js"></script>
 	</body>
 </html>
