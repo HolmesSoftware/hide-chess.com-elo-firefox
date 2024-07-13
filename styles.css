@@ -1,4 +1,4 @@
-/* styles.css */
+/* -=-=- Chess.com Support -=-=- */
 
 /* Homepage */
 .user-tagline-popover-rating {
@@ -50,9 +50,16 @@ input[aria-label="Rating"] {
 	display: none !important;
 }
 
-/* Lichess support */
+/* -=-=- Lichess support  -=-=- */
 
 /* Anaysis page */
 .game__meta__players {
+	display: none !important;
+}
+
+/* -=-=-  Aimchess Support  -=-=- */
+
+/* Analytics */
+._1ovaw8q:last-child{
 	display: none !important;
 }
